@@ -9,11 +9,38 @@ display: flex;
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 .side_room {
   height: calc(100% - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+.room {
+  padding: 20px 0 40px;
+}
+.room-name a {
+  text-decoration: none;
+  color: white;
 }
 .main {
   width: calc(100% - 300px);
