@@ -1,0 +1,36 @@
+.wrapper {
+display: flex;
+}
+.sidebar {
+  width: 300px;
+  height: 100vh;
+}
+.side_hedder {
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+.side_room {
+  height: calc(100% - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+.main {
+  width: calc(100% - 300px);
+  height: 100vh;
+}
+.main_hedder {
+  height: 100px;
+  background-color: #FFFFFF;
+  padding: 0 40px;
+}
+.main_massage {
+  height: calc(100% - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0px 40px;
+}
+.main_form {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
